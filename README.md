@@ -38,10 +38,6 @@ WeatherVue/
 - `templates/index.html`: The main page template that Vue.js uses to render the frontend.
 
 ## Installation
-...
-
-
-## Installation
 
 ```bash
 # Navigate to the project directory
