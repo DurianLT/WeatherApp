@@ -74,4 +74,4 @@ Open your web browser and navigate to http://localhost:8000 to view the applicat
 ## Bonus Task
 - Ensure the user interface is responsive and works well on different screen sizes.
 - Include a search bar for users to enter their desired location for weather forecasts.
--allow users to search for weather forecasts based on their location automatically.
+- allow users to search for weather forecasts based on their location automatically.
