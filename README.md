@@ -55,7 +55,7 @@ npm install
 You can start the Django development server using the provided batch file. It's a simple one-click solution:
 
 # Run the batch file
-start_server.bat
+start.bat
 
 or
 ```bash
