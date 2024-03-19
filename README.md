@@ -6,28 +6,7 @@ WeatherApp is a web application that provides real-time weather updates. It uses
 ## Project Structure
 Below is an outline of key files and directories within the WeatherVue project:
 
-WeatherVue/
-│
-├── app/ # Django app directory
-│ ├── views.py # Views for handling weather data requests
-│ ├── urls.py # URL definitions for weather app
-│ └── ...
-│
-├── app_serve/ # Main project directory
-│ ├── settings.py # Django project settings
-│ ├── urls.py # Root URL configurations for the project
-│ └── ...
-│
-├── static/ # Directory for static files (CSS, JS, images)
-│
-├── templates/ # Templates directory for frontend
-│ └── index.html # Main HTML template for the Vue app
-│
-├── env/ # Virtual environment directory (optional)
-│
-├── manage.py # Django's command-line utility for administrative tasks
-│
-└── requirements.txt # Python dependencies required for the project
+ ![Alternative text](./imgForReadme.png "structure.img")
 
 
 - `app/views.py`: Contains the logic to call weather APIs and serve weather data.
@@ -45,17 +24,13 @@ cd WeatherApp
 
 # Install Python dependencies
 pip install -r requirements.txt
-
-# Install Vue dependencies
-cd frontend
-npm install
 ```
 
 ## Running the Application
 You can start the Django development server using the provided batch file. It's a simple one-click solution:
 
-# Run the batch file
-start.bat
+### Run the batch file
+start_server.bat
 
 or
 ```bash
@@ -70,6 +45,21 @@ Open your web browser and navigate to http://localhost:8000 to view the applicat
 - Search by city to get current weather information.
 - Temperature readings in both Celsius and Fahrenheit
 - Wind speed and atmospheric pressure details
+
+## Instructions for use
+### Initial interface
+ ![Alternative text](./1-ins.png "Instructions.img")
+- Please allow browsers to access your location
+![Alternative text](./2-ins.png "Instructions.img")
+- In this way, the weather conditions of the current location can be directly obtained
+
+### Detailed explanation of components
+![Alternative text](./3-ins.png "Instructions.img")
+
+- When the mouse clicks on the magnifying glass icon above, the search bar will expand
+![Alternative text](./4-ins.png "Instructions.img")
+- Please enter the city/region you want to search for and use the enter key to search(May require a slight wait)
+![Alternative text](./5-ins.png "Instructions.img")
 
 ## Bonus Task
 - Ensure the user interface is responsive and works well on different screen sizes.
